@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-wrapper">
+        <img src="images/instagram-app-preview.jpeg" alt="Instagram Preview" />
+      </div>
+
+      <div class="login-section">
+        <div class="login-box">
+          <img
+            class="logo-img"
+            src="images/instagram-logo.png"
+            alt="Instagram Logo"
+          />
+
+          <form>
+            <input
+              type="text"
+              name="username"
+              class="input-field"
+              placeholder="Phone number, username, or email"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              class="input-field"
+              placeholder="Password"
+              required
+            />
+            <button type="submit" class="btn-login">Log In</button>
+          </form>
+
+          <div class="separator">
+            <div class="line"></div>
+            <span>OR</span>
+            <div class="line"></div>
+          </div>
+
+          <div class="quick-links">
+            <a href="#" class="btn-social-facebook">
+              <i class="fa-brands fa-facebook"></i> Login with Facebook
+            </a>
+            <a href="#" class="link-forgot-password">Forgot password?</a>
+          </div>
+        </div>
+
+        <div class="signup-box">
+          Don't have an account?
+          <a href="#" class="link-signup">Sign up</a>
+        </div>
+
+        <div class="app-box">
+          <p>Get the app.</p>
+          <div class="app-links">
+            <div class="app-store-badge">
+              <a
+              href="https://play.google.com/store/apps/details?id=com.instagram.android"
+              target="_blank"
+            >
+              <img
+                class="store-img"
+                src="images/google-play-badge.png"
+                alt="Google Play Store"
+              />
+            </div>
+            <div class="app-store-badge">
+              <a
+                href="https://apps.microsoft.com/detail/9NBLGGH5L9XT"
+                target="_blank"
+              >
+              <img
+                class="store-img"
+                src="images/microsoft-store-badge.png"
+                alt="Microsoft Store"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

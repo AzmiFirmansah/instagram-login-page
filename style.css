@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 25px;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  width: 100%;
+}
+
+.image-wrapper {
+  padding: 0 15px;
+  flex: 1;
+}
+
+.login-section {
+  padding: 0 25px;
+  flex: 1;
+}
+
+.login-box,
+.signup-box {
+  border: 1px solid #ccc;
+  padding: 25px 35px 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.input-field {
+  background-color: #ededed;
+  margin-top: 8px;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  box-shadow: none;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.logo-img {
+  width: 200px;
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.btn-login {
+  background-color: #2196f3;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-login:hover {
+  background-color: #005be3;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.separator .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+.separator span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #888;
+}
+
+.quick-links .btn-social-facebook {
+  color: #2196f3;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  margin: 15px 0;
+}
+
+.quick-links .btn-social-facebook:hover {
+  color: #0d47a1;
+}
+
+.quick-links .btn-social-facebook i {
+  color: #2196f3;
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.quick-links .link-forgot-password {
+  color: #00376b;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.quick-links .link-forgot-password:active {
+  opacity: 0.7;
+}
+
+.signup-box {
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.signup-box .link-signup {
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-box .link-signup:active {
+  opacity: 0.7;
+}
+
+.app-box p {
+  text-align: center;
+  padding: 25px;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.app-store-badge .store-img {
+  height: 45px;
+  max-width: 100%;
+}
+
+.app-store-badge .store-img:active {
+  opacity: 0.7;
+}
