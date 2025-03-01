@@ -1,4 +1,8 @@
-# Instagram Login Page with HTML and CSS
+## Screenshot
+
+Below is the login page interface of this Instagram clone project:
+
+![Screenshot](https://github.com/AzmiFirmansah/instagram-login-page/blob/main/images/screenshot.png?raw=true)
 
 ## Description
 
@@ -20,4 +24,4 @@ This repository contains a simple **Instagram Login Page clone** built using onl
 
 ## System Requirements
 
-- **Web Browser**: Compatible with **Chrome, Firefox, Edge, and Safari**
+- **Web Browser**: Compatible with modern browsers like **Chrome, Firefox, Edge, and Safari**.
